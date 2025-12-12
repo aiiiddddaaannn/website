@@ -51,10 +51,10 @@ export default function Experience() {
                         discordUrl="https://discord.gg/eezy"
                         title="EEZY"
                         fullDescription={[
-                            "After a friend of mine founded EEZY, he decided to hire me to bring develop an extensive discord bot, helping to bring his ideas to life. Still being developed and actively worked on to this day, this is one of, if not the biggest Discord bot I've worked on, being feature-packed and interacting with several different API's."
+                            "After a friend of mine founded EEZY, he decided to hire me to develop an extensive discord bot, helping to bring his ideas to life. Still being developed and actively worked on to this day, this is one of, if not the biggest Discord bot I've worked on, being feature-packed and interacting with several different API's."
                         ]}
                         cardImage="/eezy logo.png"
-                        cardDescription="After a friend of mine founded EEZY, he decided to hire me to bring develop an extensive discord bot, helping to bring his ideas to life. Still being developed and actively worked on to this day, this is one of, if not the biggest Discord bot I've worked on, being feature-packed and interacting with several different API's."
+                        cardDescription="After a friend of mine founded EEZY, he decided to hire me to develop an extensive discord bot, helping to bring his ideas to life. Still being developed and actively worked on to this day, this is one of, if not the biggest Discord bot I've worked on, being feature-packed and interacting with several different API's."
                         media={[]}
                         myRole="Head Developer"
                         timeline="October 2025 - Present"

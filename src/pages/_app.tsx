@@ -9,13 +9,13 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <NextSeo
-        title={"Aiden.gg"}
+        title={"dotscant"}
         description={"Aiden's personal site"}
         canonical={`https://aiden.gg${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`}
         themeColor={"#2563eb"}
         openGraph={{
           url: `https://aiden.gg${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`,
-          title: "Aiden.gg",
+          title: "dotscant",
           description: "Aiden's personal site",
           images: [
             {
