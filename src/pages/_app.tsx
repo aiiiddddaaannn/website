@@ -13,6 +13,18 @@ export default function App({ Component, pageProps }: AppProps) {
         description={"Aiden's personal site"}
         canonical={`https://aiden.gg${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`}
         themeColor={"#2563eb"}
+        additionalLinkTags={[
+          {
+            rel: "icon",
+            href: "/pfp.jpg",
+            type: "image/jpeg",
+          },
+          {
+            rel: "shortcut icon",
+            href: "/pfp.jpg",
+            type: "image/jpeg",
+          },
+        ]}
         openGraph={{
           url: `https://aiden.gg${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`,
           title: "dotscant",
