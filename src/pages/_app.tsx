@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <NextSeo
         title={"dotscant"}
-        description={"Aiden's personal site"}
+        description={"Dot's personal site"}
         canonical={`https://aiden.gg${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`}
         themeColor={"#2563eb"}
         additionalLinkTags={[
@@ -28,11 +28,11 @@ export default function App({ Component, pageProps }: AppProps) {
         openGraph={{
           url: `https://aiden.gg${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`,
           title: "dotscant",
-          description: "Aiden's personal site",
+          description: "Dot's personal site",
           images: [
             {
-              url: "/me.jpeg",
-              alt: "aidendotgg",
+              url: "/pfp.jpg",
+              alt: "dotscant",
             },
           ],
         }}
