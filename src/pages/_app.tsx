@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <NextSeo
         title={"dotscant"}
         description={"Dot's personal site"}
-        canonical={`https://aiden.gg${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`}
+        canonical={`https://dotscant.vercel.app${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`}
         themeColor={"#2563eb"}
         additionalLinkTags={[
           {
@@ -26,12 +26,12 @@ export default function App({ Component, pageProps }: AppProps) {
           },
         ]}
         openGraph={{
-          url: `https://aiden.gg${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`,
+          url: `https://dotscant.vercel.app${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`,
           title: "dotscant",
           description: "Dot's personal site",
           images: [
             {
-              url: "/pfp.jpg",
+              url: "https://dotscant.vercel.app/pfp.jpg",
               alt: "dotscant",
             },
           ],
