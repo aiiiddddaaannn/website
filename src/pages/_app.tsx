@@ -29,12 +29,22 @@ export default function App({ Component, pageProps }: AppProps) {
           url: `https://dotscant.vercel.app${router.asPath.split("?")[0] === "/" ? "" : router.asPath.split("?")[0]}`,
           title: "dotscant",
           description: "Dot's personal site",
+          siteName: "dotscant",
           images: [
             {
               url: "https://dotscant.vercel.app/pfp.jpg",
               alt: "dotscant",
+              width: 1200,
+              height: 1200,
             },
           ],
+        }}
+        twitter={{
+          cardType: "summary_large_image",
+          site: "@dotscant",
+          title: "dotscant",
+          description: "Dot's personal site",
+          image: "https://dotscant.vercel.app/pfp.jpg",
         }}
       />
       <Component {...pageProps} />
