@@ -64,6 +64,19 @@ export default function Projects() {
             delay={0.3}
             gradient="bg-gradient-to-tl"
           />
+          <ProjectCard
+            discordUrl="https://discord.gg/4pHsXXaujt"
+            title="DBA"
+            fullDescription={[
+              "Head of Media"
+            ]}
+            cardImage="/dbalogo.png"
+            cardDescription="Head of Media"
+            media={[]}
+            myRole="Head of Media"
+            delay={0.4}
+            gradient="bg-gradient-to-tl"
+          />
         </ul>
       </section>
     </>
